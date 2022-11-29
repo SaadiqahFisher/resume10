@@ -1,6 +1,10 @@
 *{box-sizing: border-box;}
 
-@import url(https://fonts.googleapis.com/css2?family=News+Cycle&display=swap);
+body{
+background-color: aqua;
+}
+
+/*@import url(https://fonts.googleapis.com/css2?family=News+Cycle&display=swap);
 
 section{
   height: 500px;
