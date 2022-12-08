@@ -1,37 +1,31 @@
 *{box-sizing: border-box;}
 
 body{
-background-color: aqua;
+  margin: 0;
 }
 
-/*@import url(https://fonts.googleapis.com/css2?family=News+Cycle&display=swap);
-
-section{
-  height: 500px;
-  background-color: lightskyblue;
-  border: solid black 1px;
+.main{
+  background-image: url(/pictures/largeimage.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.aboutme{
-  background-color: antiquewhite;
-  height: 100vh;
-  font-family: 'News Cycle', sans-serif;
-  font-size: 30px;
+.fixed-top{
+  background-color:cadetblue !important;
+  max-height: 3.5 rem !important;
+
 }
 
-footer{
-  height: 500px;
-  background-color: aquamarine;
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 300;
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
-} 
-
-ul{
-  display: flex;
+.nav-link{
+  font-size: 2rem;
+  font-weight: 600;
 }
-
 
 
