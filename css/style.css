@@ -1,50 +1,60 @@
+/* Box sizing */
 *{box-sizing: border-box;}
 
-body{
-  margin: 0;
+/* Navigation bar */
+.navigation{
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+  z-index: 1000;
 }
-
-.main{
-  background-image: url(/pictures/largeimage.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.fixed-top{
-  background-color:cadetblue !important;
-  max-height: 3.5 rem !important;
-
+#navbarNavAltMarkup{
+  justify-content: flex-end;
 }
 
 .navbar-brand{
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.nav-link{
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.nav-link{
+  color: #022B3C !important;
   font-size: 1rem;
+}
+
+.navbar-bg-light, .navbar-nav,.nav-link {
+  color:#B0E6FD !important;
   font-weight: 600;
-  color: #D8F3FE !important;
-  text-transform: uppercase;
-  padding-right: 2rem;
+  padding-left: 1.2rem !important;
+  padding-right: 1.2rem !important;
+}
+/* nav-button */
+.btn{
+  background-color: #ADCAEB !important;
+  border-radius: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: #B0E6FD !important;
+}
+/* Intro section */
+.intro{
+  background-color: #E6E7EF !important;
 }
 
-.navbar-nav{
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  text-align: right;
+/* About image section */
+.saadiqahpic{
+  justify-content: flex-end !important ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  border: 6px solid #E9C3D9 !important;
+  border: 6px solid white !important;
 }
 
-.nav-link:hover{
-  border-bottom:#022B3C;
-
+.skillstitle{
+  margin-top: 20%;
 }
 
-
+/* animate upon mouse hover */
+.icons:hover:hover{ 
+  transform: rotate(180deg);
+}

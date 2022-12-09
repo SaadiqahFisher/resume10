@@ -13,57 +13,246 @@
 
 <body>
   <!-- Navbar -->
-  <div class="main">
-    <nav class="navbar navbar-expand-lg fixed-top">
+  <section class="navigation">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
-        <a href="#" class="navbar-brand">
-          <h1 class="menu">Menu</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent"
-          aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+        <h1><a class="navbar-brand" href="#">Menu</a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarcontent"></div>
-        <!-- Nav content -->
-        <div class="justify-content-end m-lg-auto">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
-            <li class="nav-items">
-              <a href="#" class="nav-link active">Home</a>
-
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-items">
-              <a href="#about" class="nav-link">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-items">
-              <a href="#skills" class="nav-link">Skills</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
             </li>
-            <li class="nav-items">
-              <a href="#experience" class="nav-link">Experience</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience</a>
             </li>
-            <li class="nav-items">
-              <a href="#education" class="nav-link">Education</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education</a>
             </li>
-            <li class="nav-items">
-              <a href="#contact" class="nav-link">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
+      </div>
     </nav>
-  </div>
-
-  <!-- About section -->
-  <div class="container py-5">
-    <div class="row mt-5">
-      
+  </section>
+  <!-- Intro section -->
+  <section class="intro py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/pictures/largeimage.jpg" alt="My display picture" class="img-fluid">
+        </div>
+        <div class="col-md-6 py-4">
+          <h1 class="title">Saadiqah Fisher</h1>
+          <h3 class="subheading"> Discovering the possibilities of Software Development.</h3>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+  <!-- About section -->
+  <section class="about px-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="aboutheading">About me</h2>
+          <p class="intro">Self-motivated and organized individual professional with four
+            years' experience in office administration
+            and customer relations. Looking to leverage my problem-solving skills and build
+            upon my 3+ years of customer service experience by transitioning into the
+            Software Development space.
+          </p>
+          <div class="col-md-8">
+            <img class="saadiqahpic" src="/pictures/saadiqahpic.jpg" alt="Profile image">
+          </div>
+
+          <!-- Carousel section -->
+          <h2 class="skills title">Skills</h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/pictures/html.png" class="d-block w-100" alt="htmllogo">
+              </div>
+              <div class="carousel-item">
+                <img src="/pictures/css-3.png" class="d-block w-100" alt="csslogo">
+              </div>
+              <div class="carousel-item">
+                <img src="/pictures/bootstrap.png" class="d-block w-100" alt="bootstraplogo">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- skills -->
+          <div class="card" style="width: 18rem;">
+            <div class=" card-body">
+              <h5 class="card-title">Skills & Expertise</h5>
+              <ul>
+                <li>Legal Suite</li>
+                <li>LexisNexis Convey Suite</li>
+                <li>Microsoft Office Suite and Google Drive Suite</li>
+                <li>Microsoft Office Suite</li>
+                <li>Research skills</li>
+                <li>Zoom</li>
+                <li>Retailer systems</li>
+              </ul>
+
+              <div class=" card">
+                <div class="card body">
+                  <div class="col">
+                    <ul>
+                      <li>Flexiblity</li>
+                      <li>Teamwork</li>
+                      <li>Empathy</li>
+                      <li>Ability to be proactive and manage multiple projects efficiently</li>
+                      <li>Self-management and results-driven behaviour with detail</li>
+                      <li>Ability to be creative, innovative and a problem solver with collaboration and inclusiveness
+                      </li>
+                      <li>Good communication skills with the ability to access and use information</li>
+                      <li>Ability too work under pressure while being client centric at all times</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <section class="Education">
+
+              <h2 class="education">Education</h2>
+
+              <p>I'm currently studying Software Development at <a href="http://codespace.co.za">CodeSpace
+                      Academy</a></p>
+          </section>
+
+            <!-- Experience  -->
+            <section class="exp1">
+              <p></p>
+              <h3>FA Hanekom Inc.</h3>
+              <div>Designation: Conveyacing Secretary</div>
+              <div>Period:2020-Current</div>
+              <h2 class="heading4">Skills</h2>
+              <ul>
+                <li>Provide support to the conveyacers,attorneys and other employees, for the smooth
+                  operation
+                  of
+                  the office.</li>
+                <li>Accepting service of legal documents</li>
+                <li>Maintain and manage the directors diary</li>
+                <li>Maintain and manage the boardroom bookings</li>
+                <li>Assisting with drafting of documents(various levels of employees)</li>
+                <li>Responsible for keeping a record of legal clerk's daily servings and tasks</li>
+                <li>Managing and organising the services of couriers</li>
+                <li>Ensuring stationery supplies are stocked and efficiently ordered</li>
+                <li>Flexiblity</li>
+                <li>Teamwork</li>
+                <li>Empathy</li>
+                <li>Ability to be proactive and manage multiple projects efficiently</li>
+                <li>Self-management and results-driven behaviour with detail</li>
+                <li>Ability to be creative, innovative and a problem solver with collaboration and inclusiveness
+                </li>
+                <li>Good communication skills with the ability to access and use information</li>
+                <li>Ability too work under pressure while being client centric at all times</li>
+              </ul>
+          </div>
+  </section>
+
+  <section class="exp2">
+
+    <p></p>
+    <h3>Nongogo Guzana Inc.</h3>
+    <div>Designation: Legal Receptionist</div>
+    <div>Period: 2018-2020</div>
+    <ul>
+      <li>Face of the law firm, welcoming clients and visitors</li>
+      <li>Answering and managing the firm's main telephone line</li>
+      <li>Assisting Candidate attorneys and Attorney's with opening files</li>
+      <li>Provide assistance in sorting incoming mail</li>
+      <li>Responsible for files and record managment</li>
+      <li>Managing and organising the services of couriers</li>
+      <li>Maintain and manage the boardroom bookings</li>
+      <li>Maintain and manage the directors diary</li>
+      <li>Assisting with typing documents</li>
+    </ul>
+  </section>
+
+  <section class="exp3">
+    <p></p>
+    <h3>Pringle of Scotland</h3>
+    <div>Designation: Sales Assistant</div>
+    <div>Period: 2014-2018</div>
+    <ul>
+      <li>Merchandise to the company's standards</li>
+      <li>Product and brand knowledge</li>
+      <li>Advising customers on fashion where applicable</li>
+      <li>Ensuring excellent customer service</li>
+      <li>Assisting customers with queries</li>
+      <li>Capturing sales and achieving Sales targets</li>
+      <li>Cashier reconciliation of cash received with cash register roll records</li>
+      <li>Maintenance and Cleanliness of the store</li>
+      <li>Capturing admin and assisting with weekly Stocktake</li>
+      <li>Capturing customer information</li>
+      <li>Opening and closing of store</li>
+    </ul>
+  </section>
+
+
+
+<!-- footer -->
+  <footer id="footer">
+    <h3 id="Contact Info">Contact info</h3>
+    <ul>
+      <a href="https://github.com/SaadiqahFisher/my-digital-Resume.git" target="_blank"></a>
+      <img class="icons" src="/pictures/github_PNG40.png" alt="Saadiqah Fisher Github"></a>
+      
+  </footer>
+
+
   <!-- Script tags -->
   <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="/assets/fontawsome/js/all.min.js"></script>
 </body>
+<!-- CONTACT FORM  -->
+<!-- </html> -->
+<!-- <header id="heading">
+  <h1 class="heading1"> Registration Form</h1>
+</header>
+<form>
+  <div>
+<form class="formsubmission">
+  <div> -->
+      <!-- <label for="User id">User id:</label>
+      <input type="text" name="User id" id="User id" placeholder="Length 5 - 12 characters" required>
+  </div> -->
 
-</html>
+
 
 
 
