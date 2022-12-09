@@ -28,4 +28,23 @@ body{
   font-weight: 600;
 }
 
+.nav-link{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #D8F3FE !important;
+  text-transform: uppercase;
+  padding-right: 2rem;
+}
+
+.navbar-nav{
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  text-align: right;
+}
+
+.nav-link:hover{
+  border-bottom:#022B3C;
+
+}
+
 
